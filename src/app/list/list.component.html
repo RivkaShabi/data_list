@@ -1,0 +1,38 @@
+<div class="rashi" dir="rtl">
+    <h3>רשימת נתונים</h3>
+   
+        <!-- <mat-form-field>
+        <button class="btnCsv" mat-stroked-button color="primary" (click)="f_input.click()">File CSV</button>
+        <input type="text" readonly matInput [formControl]="display" />
+        <input
+    type="file"
+    multiple
+    hidden
+    #f_input
+    (change)="handleFileInput($event)"
+  />
+    </mat-form-field> -->
+   
+   <div> <div class="filter"><label>חיפוש</label> <input [(ngModel)]="filter" #tr (ngModelChange)="select()" />
+    </div> </div>
+<div class="divTable">
+    <table class="table table-bordered">
+        <tr>
+            <th>areaAddres</th>
+            <th>nameAddres</th>
+            <th>cityAddres</th>
+        </tr>
+        <tr *ngFor="let i of arr; let index=index">
+            <td >
+                {{i.areaAddres}}
+            </td>
+            <td>
+                {{i.nameAddres}}
+            </td>
+            <td>
+                {{i.cityAddres}}
+            </td>
+        </tr>
+    </table>
+</div>
+</div>

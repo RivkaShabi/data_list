@@ -1,0 +1,6 @@
+{
+    "/rivka/srv": {
+      "target": "http://10.0.6.3",
+      "secure": false
+    }
+  }

@@ -1,0 +1,25 @@
+.rashi{
+    text-align: right;
+
+}
+
+h3{
+    text-align: center;
+}
+.mat-form-field-infix {
+    display: flex !important;
+}
+.btnCsv{
+    margin-left: 20px;
+}
+.table{
+    max-width:600px ;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.filter{    
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
